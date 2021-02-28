@@ -1,0 +1,42 @@
+body {
+    background-color: #415a77;
+    color: #e0e1dd;
+    font-family: 'Do Hyeon', sans-serif;
+    
+}
+
+#addSelection {
+    background-color: #1b263b;
+    color: #e0e1dd;
+}
+
+#submit {
+    background-color: #1b263b;
+    color: #e0e1dd;
+}
+
+#form {
+    padding-top: 10px;
+}
+#list {
+    display:flex;
+    flex-direction: row; 
+
+}
+
+button {
+    
+        background-color: #1b263b;
+        color: #e0e1dd;
+    
+}
+
+ul {
+    list-style-type: none;
+}
+
+#editLi {
+    display: flex;
+    flex-direction: column;
+}
+
