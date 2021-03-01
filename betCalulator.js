@@ -36,7 +36,7 @@ const betCalculator = (unitStake, odds, ewTerms) => {
     let totalReturns = winReturn + ewReturn;
     return ` <br>Win only stake: £${unitStake}</br><br> Win only returns: £${winReturn.toFixed(2)}</br> 
     <br>EachWay total stake: £${unitStake * 2}</br>
-    <br> EachWay only returns: £${ewReturn.toFixed(2) - (unitStake * 2)}</br><br>Total returns: £${totalReturns.toFixed(2)}</br>`
+    <br> EachWay only returns: £${ewReturn.toFixed(2)}</br><br>Total returns: £${totalReturns.toFixed(2)}</br>`
 
 
 //     <br>EachWay only stake: £${unitStake}</br>
@@ -62,6 +62,15 @@ addSelection.addEventListener("click", () => {
     displayTotals.innerHTML = betCalculator(1,oddsArr, ewArr )
     console.log(oddsArr)
 }) 
+
+const myFunction = () => {
+    let x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
 
 // addEventListener("click", () => {
 //     test.innerHTML = odds.value
