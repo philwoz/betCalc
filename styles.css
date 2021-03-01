@@ -63,7 +63,7 @@ ul {
   /* .topnav  */
   /* Style the hamburger menu */
   a.icon {
-    background: black;
+    background: #1b263b;
     display: block;
     position: absolute;
     right: 0;
@@ -79,6 +79,6 @@ ul {
   /* Style the active link (or home/logo) */
   .active {
     background-color: #1b263b;
-    color: white;
+    color: #e0e1dd;
   }
 
